@@ -1,0 +1,13 @@
+Source: obs-gamecapture-plugin
+Section: video
+Priority: optional
+Maintainer: Ward Nakchbandi <hotrod.master@hotmail.com>
+Build-Depends: debhelper (>= 9), dh-autoreconf, quilt, meson, cmake, libvulkan-dev, libgl-dev, libx11-dev, libxcb1-dev, libwayland-dev
+Homepage: https://github.com/nowrep/obs-vkcapture
+
+Package: obs-gamecapture-plugin	
+Architecture: linux-any
+Multi-Arch: same
+Depends: ${misc:Depends}, obs-studio [amd64]
+Description: OBS Linux Vulkan/OpenGL game capture
+

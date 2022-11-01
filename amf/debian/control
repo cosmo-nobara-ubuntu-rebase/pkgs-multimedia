@@ -1,0 +1,14 @@
+Source: AMF
+Section: libdevel
+Priority: optional
+Maintainer: Ward Nakchbandi <hotrod.master@hotmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.1
+Homepage: https://github.com/GPUOpen-LibrariesAndSDKs/AMF/
+
+Package: libffmpeg-amf-dev
+Section: libdevel
+Architecture: all
+Depends: ${misc:Depends}
+Description: Development headers for Advanced Media Framework (AMF) SDK
+ This package contains the development files.

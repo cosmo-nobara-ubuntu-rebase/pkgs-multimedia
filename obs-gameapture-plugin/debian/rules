@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+%:
+		dh $@
+ 
+ifeq (i386,$(DEB_HOST_ARCH))
+override_dh_auto_configure:
+		dh_auto_configure -- -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_DATADIR=/usr/share -DCMAKE_LIBRARY_PATH=/usr/lib/i386-linux-gnu -DBUILD_PLUGIN=OFF
+else
+override_dh_auto_configure:
+		echo "No Build"
+endif
+
+ifeq (i386,$(DEB_HOST_ARCH))
+override_dh_install:
+	dh_install
+	rm -r debian/obs-gamecapture-plugin/usr/bin
+endif
+

@@ -1,0 +1,11 @@
+obs-gamecapture-plugin (10:0.1.2-git-99nobara2) kinetic; urgency=low
+
+  * Fix i386 build?.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Fri, 14 Oct 2022 19:24:00 +0300
+
+obs-gamecapture-plugin (10:0.1.2-git-99nobara1) kinetic; urgency=low
+
+  * Initial release.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Fri, 14 Oct 2022 14:47:00 +0300
