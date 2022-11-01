@@ -1,1 +1,2 @@
 obs-gstreamer-vaapi-plugin_0.3.4.orig.tar.xz
+#https://github.com/fzwoch/obs-vaapi
