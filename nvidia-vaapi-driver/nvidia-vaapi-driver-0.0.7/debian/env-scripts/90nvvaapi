@@ -7,7 +7,6 @@ if [[ ! -z $nvgpu ]]; then
 	if [[ ! -z $nvkernmod ]]; then
         	export LIBVA_DRIVER_NAME=nvidia
         	export MOZ_DISABLE_RDD_SANDBOX=1
-        	export EGL_PLATFORM=wayland
 	else
         	echo "No NVIDIA Driver detected. No env vars set for va-api."
 	fi
