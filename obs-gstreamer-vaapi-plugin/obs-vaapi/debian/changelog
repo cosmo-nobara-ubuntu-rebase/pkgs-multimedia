@@ -1,6 +1,6 @@
-obs-gstreamer-vaapi-plugin (0.3.4.git-99pika1) kinetic; urgency=medium
+obs-gstreamer-vaapi-plugin (0.3.4.git-99nobara5) kinetic; urgency=medium
 
-  * Rebrand to PikaOS
+  * Update version scheme
 
  -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
 
