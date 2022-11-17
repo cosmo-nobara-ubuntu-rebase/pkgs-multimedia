@@ -9,8 +9,7 @@ if [[ ! -z $nvgpu ]]; then
 	if [[ ! -z $nvkernmod ]]; then
         	export LIBVA_DRIVER_NAME=nvidia
         	export MOZ_DISABLE_RDD_SANDBOX=1
-        	if [[ "$XDG_SESSION_TYPE" == 'wayland' ]]; then
-        		export EGL_PLATFORM=wayland
+        	export EGL_PLATFORM=$XDG_SESSION_TYPE
 		fi
 	else
         	echo "No NVIDIA Driver detected. No env vars set for va-api."

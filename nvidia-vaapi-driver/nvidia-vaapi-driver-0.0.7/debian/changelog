@@ -1,3 +1,10 @@
+nvidia-vaapi-driver (10:0.0.7-99pika4) kinetic; urgency=medium
+
+  * finally fix EGL_PLATFORM .
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+
 nvidia-vaapi-driver (10:0.0.7-99nobara3) kinetic; urgency=medium
 
   * Make profile.d only export egl over-ride on wayland, and xsession not override at all .
