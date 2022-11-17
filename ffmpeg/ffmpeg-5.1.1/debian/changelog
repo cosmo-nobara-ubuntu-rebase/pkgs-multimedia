@@ -1,3 +1,9 @@
+ffmpeg (11:5.1.1-99pika1) kinetic; urgency=medium
+
+  * Rebrand to PikaOS
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 ffmpeg (11:5.1.1-99nobara5) kinetic; urgency=medium
 
   * Fix lib32 build deps

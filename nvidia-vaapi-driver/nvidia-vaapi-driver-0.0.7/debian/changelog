@@ -1,8 +1,8 @@
-nvidia-vaapi-driver (10:0.0.7-99pika4) kinetic; urgency=medium
+nvidia-vaapi-driver (10:0.0.7-99pika1) kinetic; urgency=medium
 
-  * finally fix EGL_PLATFORM .
- 
- -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+  * Rebrand to PikaOS
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
 
 
 nvidia-vaapi-driver (10:0.0.7-99nobara3) kinetic; urgency=medium

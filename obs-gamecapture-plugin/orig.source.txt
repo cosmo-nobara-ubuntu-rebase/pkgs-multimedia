@@ -1,2 +1,2 @@
-obs-gamecapture-plugin_0.1.2-git.orig.tar.xz
+obs-gamecapture-plugin_0.1.2.git.orig.tar.xz
 #https://github.com/nowrep/obs-vkcapture

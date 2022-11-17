@@ -1,3 +1,9 @@
+obs-gamecapture-plugin (10:0.1.2.git-99pika1) kinetic; urgency=medium
+
+  * Rebrand to PikaOS
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 obs-gamecapture-plugin (10:0.1.2-git-99nobara2) kinetic; urgency=low
 
   * Fix i386 build?.
