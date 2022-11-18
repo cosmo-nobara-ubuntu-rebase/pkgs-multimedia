@@ -4,10 +4,10 @@
  
 ifeq (i386,$(DEB_HOST_ARCH))
 override_dh_auto_configure:
-		dh_auto_configure -- -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_DATADIR=/usr/share -DCMAKE_LIBRARY_PATH=/usr/lib/i386-linux-gnu -DBUILD_PLUGIN=OFF
+		dh_auto_configure -- -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_DATADIR=/usr/share -DCMAKE_LIBRARY_PATH=/usr/lib/$(DEB_HOST_MULTIARCH) -DBUILD_PLUGIN=OFF
 else
 override_dh_auto_configure:
-		echo "No Build"
+		dh_auto_configure -- -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_DATADIR=/usr/share -DCMAKE_LIBRARY_PATH=/usr/lib/$(DEB_HOST_MULTIARCH)
 endif
 
 ifeq (i386,$(DEB_HOST_ARCH))

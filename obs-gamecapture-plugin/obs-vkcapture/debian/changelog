@@ -1,3 +1,9 @@
+obs-gamecapture-plugin (10:0.1.2.git-99nobara5) kinetic; urgency=medium
+
+  * Fix broken amd64 build
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 obs-gamecapture-plugin (10:0.1.2.git-99nobara4) kinetic; urgency=medium
 
   * Update version scheme
